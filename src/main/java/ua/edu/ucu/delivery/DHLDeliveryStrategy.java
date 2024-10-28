@@ -1,6 +1,10 @@
 package ua.edu.ucu.delivery;
 import ua.edu.ucu.model.Item;
 import java.util.List;
+/**
+ * DHLDeliveryStrategy class provides a delivery strategy using DHL.
+ * This class can be extended to modify the delivery behavior.
+ */
 
 public class DHLDeliveryStrategy implements Delivery {
     @Override
