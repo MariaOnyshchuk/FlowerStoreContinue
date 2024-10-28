@@ -30,4 +30,5 @@ jobs:
         uses: super-linter/super-linter@v7.1.0 # x-release-please-version
         env:
           # To report GitHub Actions status checks
+          VALIDATE_GOOGLE_JAVA_FORMAT: false
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
